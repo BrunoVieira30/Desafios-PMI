@@ -23,6 +23,19 @@ nav{
     margin: 0 auto;
 }
 
+form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form > input, form > textarea{
+    width: 20%;
+    margin-bottom: 10px;
+}
+
 body{
     background-image: url('./imagens/fundo2.png');
 }
