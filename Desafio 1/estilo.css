@@ -1,0 +1,39 @@
+header{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.7% auto;
+}
+
+nav{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.capa{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texto{
+    width: 60%;
+    margin: 0 auto;
+}
+
+body.home{
+    background-image: url('./imagens/fundo.png');
+}
+
+.linha_vertical{
+    height: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    margin: 0 2px;
+}
+
+footer{
+    margin: 5% auto;
+    text-align: center;
+}
