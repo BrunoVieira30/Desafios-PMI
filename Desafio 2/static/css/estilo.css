@@ -37,7 +37,7 @@ form > input, form > textarea{
 }
 
 body{
-    background-image: url("/static/imagens/fundo2.png");
+    background-image: url('./imagens/fundo2.png');
 }
 
 body.home{
