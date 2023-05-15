@@ -6,13 +6,13 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at incidunt earum, esse saepe, quo architecto in distinctio obcaecati quidem, quod amet eaque dolorum totam maxime ea non commodi molestiae.</p>
     </div>
     <hr>
-    <form action="">
-        <label for="">Seu e-mail:</label>
-        <input type="email">
-        <label for="">Assunto:</label>
-        <input type="text">
-        <label for="">Descrição:</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+    <form action="/contato" method="post">
+        <label for="email">Seu e-mail:</label>
+        <input type="email" name="email">
+        <label for="assunto">Assunto:</label>
+        <input type="text" name="assunto">
+        <label for="descricao">Descrição:</label>
+        <textarea name="descricao" id="" cols="30" rows="10"></textarea>
         <input type="submit">
     </form>
 {% endblock %}
