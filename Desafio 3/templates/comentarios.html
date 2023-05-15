@@ -14,9 +14,9 @@
         </tr>
         {% for com in comentarios %}
             <tr>
-                <td>{{ com['email'] }}</td>
-                <td>{{ com['assunto'] }}</td>
-                <td>{{ com['descricao'] }}</td>
+                <td>{{ com[0] }}</td>
+                <td>{{ com[1] }}</td>
+                <td>{{ com[2] }}</td>
             </tr>
         {% endfor %}
     </table>

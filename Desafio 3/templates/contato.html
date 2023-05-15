@@ -8,11 +8,11 @@
     <hr>
     <form action="/contato" method="post">
         <label for="email">Seu e-mail:</label>
-        <input type="email" name="email">
+        <input  requiredtype="email" name="email">
         <label for="assunto">Assunto:</label>
-        <input type="text" name="assunto">
+        <input  requiredtype="text" name="assunto">
         <label for="descricao">Descrição:</label>
-        <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+        <textarea required name="descricao" id="" cols="30" rows="10"></textarea>
         <input type="submit">
     </form>
 {% endblock %}
