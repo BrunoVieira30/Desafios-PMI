@@ -18,6 +18,8 @@ Após instalar as dependências execute o comando:
 python '.\Desafio 2\app.py'
 ```
 
+Acesse `localhost:5000` no seu navegador
+
 ### Desafio 3
 Para executar o código é necessário a instalação dos seguintes componentes:
 - MySQL 8.0 ou superior
@@ -31,3 +33,8 @@ Após instalar as dependências execute o comando:
 ```
 python '.\Desafio 3\app.py'
 ```
+
+Acesse `localhost:5000` no seu navegador
+
+### Desafio 4
+- Acesse o [link](http://34.206.239.197:5000/) para acessar o site
