@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="texto">
+        <h2>Comentarios</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at incidunt earum, esse saepe, quo architecto in distinctio obcaecati quidem, quod amet eaque dolorum totam maxime ea non commodi molestiae.</p>
+    </div>
+    <hr>
+    <table>
+        <tr>
+            <th>Email</th>
+            <th>Assunto</th>
+            <th>Descrição</th>
+        </tr>
+        {% for com in comentarios %}
+            <tr>
+                <td>{{ com[0] }}</td>
+                <td>{{ com[1] }}</td>
+                <td>{{ com[2] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
